@@ -2,7 +2,8 @@ from PIL import Image
 import RPi.GPIO as GPIO
 from spidev import SpiDev
 import time
-import ILI9486 as LCD
+#import ILI9486 as LCD
+import ILI9486_16Bit as LCD
 import config
 
 spi: SpiDev = None
